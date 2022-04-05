@@ -1,0 +1,73 @@
+<html>
+<head>
+<link href="css/question.css" type="text/css" rel="stylesheet" />
+<title>Question (teaching.codes)</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h1>
+					Question:
+					<code>City Navigator</code>
+				</h1>
+				<div>
+					Please read <a href="ReadMe.html">important information</a> first.
+				</div>
+				<div id="page1">
+					<h2>Description</h2>
+					<p>
+					In <code>question</code> package, you are given <code>CityNavigator</code> class. Inside this class,
+					there is a method called <code>pathFinder(String startCity, String targetCity)</code>. You are asked to complete
+					this method and return the path length between two given cities. You will be doing the following:
+					<ol>
+						<li>You are given a file called <code>cities_and_distances</code>. This file contains city, distance pairs such as:
+						<code>A-B:5</code>. This shows that cities A and B are connected, and the distance between them is 5. First you need to
+						read this file and store the elements. You can use arrays or arraylists on your implementation. Please do not use any other
+						data structure that we have not seen in class.</li>
+						<li>Aim of <code>pathFinder(String startCity, String targetCity)</code> method is to find a path between two given cities,
+						startCity and targetCity. Note that there can be more than one path between 2 cities, we will try to find the smallest distance.
+						For example we can have these city pairs in file: <code>A-B:5 B-C:4</code>, and we want to find a path between A and C.
+						We see that we can go to B from A and C from B, so there is a path between A and C and the total distance is 9. In this case, 
+						the method should return 9.</li>
+						<li>We want you to also store and print the path, the example given before should print <code>[A-B,B-C]</code> </li>
+						<li>If there is no path between two given cities, you should return <code>0</code> as the distance. (This can happen
+						if there is no connected path)</li>
+					</ol> 
+					</p>
+					<p>
+						Important Notes:
+						<ul>
+							<li>Do not modify anything else in the code, except the specified area. Do not change the method name etc.</li>
+							<li>This homework won't be graded, but you still need to make a submission.</li>
+							<li>Do not use different data structures that we have not seen in class, such as graphs.</li>
+							<br>
+							
+						</ul>
+					</p>
+				</div>
+				<!--div>
+					<h2>Package classification</h2>
+					This is the package classification described in <a
+						href="ReadMe.html">important information</a>.
+					<ul>
+						<li><b>Changeable</b>
+							<ul>
+								<li><code>question</code></li>
+							</ul></li>
+						<li><b>Usable</b>
+							<ul>
+								<li><code>do_not_modify</code></li>
+							</ul></li>
+						<li><b>ForYourEyesOnly</b>
+							<ul>
+								<li><code>openbook</code></li>
+							</ul>
+						</li>
+					</ul>
+				</div-->
+			</div>
+		</div>
+	</div>
+</body>
+</html>
